@@ -1,0 +1,65 @@
+* {
+    Box-Sizing: Border-Box;
+
+}
+
+Body {
+    Margin: 0;
+
+    Background-Color: #EA5455;
+    Font-Family: "Poppins", Sans-Serif;
+}
+
+Header {
+    Background-Color: #2D4059;
+    Padding: 1rem;
+
+}
+
+.header {
+    text-align: center;
+}
+
+#searchForm {
+    text-align: center;
+}
+
+div {
+    Display: inline-Flex;
+    Flex-Wrap: Wrap;
+    justify-content: space-evenly;
+
+}
+
+.card {
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    Box-Shadow: 5px 5px 10px Rgba(0, 0, 0, 0.3);
+    Background-Color: #FFAB73;
+
+}
+
+section img {
+    padding-top: 5px;
+    border-radius: 10px;
+
+}
+
+section h5 {
+    margin: 5px;
+}
+
+section p {
+    margin: 5px;
+    height: 115px;
+    overflow: hidden;
+}
+
+.hide {
+    display: none;
+}
