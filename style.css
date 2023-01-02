@@ -1,17 +1,12 @@
-* {
-    Box-Sizing: Border-Box;
-
-}
-
 Body {
     Margin: 0;
-
-    Background-Color: #EA5455;
+    Background-Color: #1d1e22;
     Font-Family: "Poppins", Sans-Serif;
+    height: 100%;
 }
 
 Header {
-    Background-Color: #2D4059;
+    Background-Color: #feda6a;
     Padding: 1rem;
 
 }
@@ -20,14 +15,39 @@ Header {
     text-align: center;
 }
 
+header h1 {
+    margin-top: 0;
+}
+
 #searchForm {
     text-align: center;
+
+}
+
+#searchForm input {
+    background-color: rgb(254, 254, 254);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#searchForm select {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#searchForm option {
+    color: white;
+    background-color: #1d1e22;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 div {
-    Display: inline-Flex;
-    Flex-Wrap: Wrap;
+    Display: Flex;
+    Flex-Wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
 
 }
 
@@ -40,13 +60,21 @@ div {
     padding: 5px;
     text-align: center;
     Box-Shadow: 5px 5px 10px Rgba(0, 0, 0, 0.3);
-    Background-Color: #FFAB73;
+    background-color: #feda6a;
+    color: black;
 
 }
 
+.card:hover {
+    transform: scale(1.02);
+}
+
+
 section img {
-    padding-top: 5px;
+    padding-top: 3px;
     border-radius: 10px;
+    width: 100%;
+    margin: 0;
 
 }
 
@@ -62,4 +90,14 @@ section p {
 
 .hide {
     display: none;
+
+}
+
+.show {
+    align-items: center;
+}
+
+.found {
+    display: inline;
+
 }
