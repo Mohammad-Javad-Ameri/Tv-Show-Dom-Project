@@ -46,9 +46,17 @@ form.addEventListener("input", async (e) => {
 select.addEventListener("click", (e) => {
     const value = e.target.value;
 
-    episodeInfo.forEach(list => {
-        const isVisible = list.All.includes(value)
-        list.class.classList.toggle("hide", !isVisible)
+    episodeInfo.map(list => {
+
+
+        if (list.All.includes(value)) {
+            list.element.classList.remove("hide")
+        }
+        else {
+            list.element.classList.add("hide");
+        }
+
+
 
     })
 })
